@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Nunito+Sans:wght@300&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+/* Color de fondos */
+body {
+  background-color: rgb(170, 0, 0);
+}
+header {
+  text-align: center;
+  background-color: rgb(173, 79, 2);
+}
+/* Estilo del texto en las distintas secciones de las paginas */
+li {
+  display: inline-block;
+}
+h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 85px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-align: center;
+  color: whitesmoke;
+}
+
+h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  word-spacing: 3px;
+  text-align: center;
+  text-transform: uppercase;
+  color: whitesmoke;
+}
+h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  word-spacing: 4px;
+  text-transform: uppercase;
+  color: white;
+}
+h4 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  word-spacing: 4px;
+  text-transform: capitalize;
+  color: white;
+}
+em {
+  font-style: normal;
+}
+p,
+dd {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: left;
+  line-height: 30px;
+  word-spacing: 4px;
+  letter-spacing: 3px;
+}
+dl {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+dt {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 8px;
+  color: white;
+}
+
+.subtitulo_centrado {
+  text-align: center;
+}
+
+/* Estilo para los videos de las páginas con el resumen de cada de temporada */
+
+.video_resumen {
+  text-align: center;
+}
+/* Estilo para las imagenes de la seccion del autor */
+
+figure {
+  text-align: center;
+}
+figcaption {
+  color: grey;
+}

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../images/god_logo_400x400.ico" />
+    <link rel="stylesheet" href="../style/style.css">
+    <title>Game of Thrones</title>
+</head>
+
+<body>
+    <header>
+        <h1>Game of Thrones (GoT)</h1>
+        <picture><img src="../images/game-of-thrones_intro_image.jpg" alt="GoT logo" title="GoT logo" width="300" />
+        </picture>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="historia.html">Historia de Westeros</a></li>
+                <li>Resumen por temporada (contiene spoilers)</li>
+                <ul>
+                    <li><a href="temporada_1.html">Temporada 1</a></li>
+                    <li><a href="temporada_2.html">Temporada 2</a></li>
+                    <li><a href="temporada_3.html">Temporada 3</a></li>
+                    <li><a href="temporada_4.html">Temporada 4</a></li>
+                    <li><a href="temporada_5.html">Temporada 5</a></li>
+                    <li><a href="temporada_6.html">Temporada 6</a></li>
+                    <li><a href="temporada_7.html">Temporada 7</a></li>
+                    <li><a href="temporada_8.html">Temporada 8</a></li>
+                </ul>
+                <li>
+                    <a href="george_martin.html">George R. R. Martin y sus fuentes de inspiración</a>
+                </li>
+                <li><a href="merchandising.html">Merchandising</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <div id="contactanos">
+        <h2><strong>Las mejores recomendaciones del cine, gratis y a un click de distancia</strong></h2>
+        <p>Completando este pequeño cuestionario, recibiras semanalmente recomendaciones y críticas de las películas y
+            series del momento. Tambíen indagamos en la historia detrás de cada personaje, te contamos cómo se
+            prepararon los actores para sus papeles, y muchas cosas más!</p>
+    </div>
+    <form action="#">
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <ul>
+                <li><label for="name">¿Comó te llamas?
+                        <input type="text" name="name" id="name" placeholder="Nombre/s" required></label></li>
+                <li><label for="surname">Tu apellido por favor
+                        <input type="text" name="surname" id="surname" placeholder="Apellido/s" required>
+                    </label></li>
+                <li><label for="gender">Género
+                        <select name="gender" id="gender">
+                            <option value="Masculino">Masculino</option>
+                            <option value="Femenino">Femenino</option>
+                            <option value="X">X</option>
+                        </select>
+                    </label>
+                </li>
+                <li><label for="email">Tu dirección de email
+                        <input type="email" name="email" id="email" placeholder="Email" required>
+                    </label></li>
+                <li><label for="birthday">Fecha de nacimiento
+                        <input type="date" name="birthday" id="birthday" required>
+                    </label></li>
+                <li>
+                    <label for="phone">Número de celular
+                        <input type="tel" name="phone" id="phone" placeholder="Agregar país, EJ:+54" required>
+                    </label>
+                </li>
+            </ul>
+        </fieldset>
+
+        <fieldset>
+            <legend>Queremos conocerte mejor <br>
+                <small>Esto nos ayuda a recomendarte programas de acuerdo a tus gustos</small>
+            </legend>
+            <p>Género de películas favorito</p>
+            <ul>
+                <li><label for="gender_terror">Terror
+                        <input type="radio" name="movies_gender" id="gender_terror" value="Terror">
+                    </label>
+                </li>
+                <li><label for="gender_comedy">Comedia
+                        <input type="radio" name="movies_gender" id="gender_comedy" value="gender_comedy">
+                    </label>
+                </li>
+                <li><label for="gender_sci-fi">Ciencia Ficción
+                        <input type="radio" name="movies_gender" id="gender_sci-fi" value="gender_sci-fi">
+                    </label>
+                </li>
+                <li><label for="gender_adventure">Aventura
+                        <input type="radio" name="movies_gender" id="gender_adventure" value="gender_adventure">
+                    </label>
+                </li>
+                <li><label for="gender_drama">Drama
+                        <input type="radio" name="movies_gender" id="gender_drama" value="gender_drama">
+                    </label>
+                </li>
+            </ul>
+
+            <p>Plataforma de Streaming que usa</p>
+            <ul>
+                <li>
+                    <label for="disney">DISNEY PLUS
+                        <input type="checkbox" name="disney" id="disney">
+                    </label>
+                </li>
+                <li>
+                    <label for="hbo-max">HBO-MAX
+                        <input type="checkbox" name="hbo-max" id="hbo-max">
+                    </label>
+                </li>
+                <li>
+                    <label for="netflix">NETFLIX
+                        <input type="checkbox" name="netflix" id="netflix">
+                    </label>
+                </li>
+                <li>
+                    <label for="star">STAR PLUS
+                        <input type="checkbox" name="star" id="star">
+                    </label>
+                </li>
+                <li>
+                    <label for="amazon">AMAZON PRIME
+                        <input type="checkbox" name="amazon" id="amazon">
+                    </label>
+                </li>
+                <li>
+                    <label for="paramount">PARAMOUNT PLUS
+                        <input type="checkbox" name="paramount" id="paramount">
+                    </label>
+                </li>
+            </ul>
+            <p>
+                <label for="acept">Haz click si deseas recbir recomendaciones en tu casilla de correo
+                    <input type="checkbox" name="acept" id="acept">
+                </label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <input type="submit" value="Enviar"> <input type="reset" value="Reset">
+        </fieldset>
+
+
+    </form>
+
+    <hr />
+    <footer>
+        <ol>
+            <li><a href="https://www.facebook.com/GameOfThrones/about/?ref=page_internal" target="_blank">Facebook</a>
+            </li>
+            <li><a href="https://www.instagram.com/gameofthrones/" target="_blank">Instagram</a></li>
+            <li><a href="https://www.youtube.com/user/GameofThrones" target="_blank">YouTube</a></li>
+            <li><a href="https://twitter.com/GameOfThrones?s=20&t=bf5_3lW5pqZi8EbOHIDtBA" target="_blank">Twitter</a>
+            </li>
+        </ol>
+        <p>Sitio web creado para la Diplomatura en Desarrollo Web Fullstack de Academia Numen.
+        </p>
+        <p>Autor: Nicolás Jaimez</p>
+        <img src="../images/winter_is_here.jpg" alt="Winter is here" title="Winter is here" width="150">
+    </footer>
+</body>
+
+</html>
